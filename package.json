@@ -1,0 +1,30 @@
+{
+  "homepage": "https://bookb33tju1c3.com/",
+  "name": "beetjuice",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "dependencies": {
+    "framer-motion": "^6.2.8",
+    "next": "^12.1.4",
+    "react": "17.0.2",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-player": "^2.10.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "8.10.0",
+    "eslint-config-next": "12.1.0",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3"
+  }
+}
