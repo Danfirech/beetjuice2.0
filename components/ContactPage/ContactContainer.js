@@ -9,6 +9,13 @@ const ContactContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 1068px) {
+  }
+  @media (max-width: 868px) {
+    flex-direction: column;
+    height: 920px;
+    padding-bottom: 330px;
+  }
 `;
 
 const FormContainer = styled.div`
@@ -17,6 +24,14 @@ const FormContainer = styled.div`
   background-color: #e5e4e2;
   margin-top: -900px;
   margin-bottom: -400px;
+  @media (max-width: 1068px) {
+    width: 100%;
+    height: 50px;
+  }
+  @media (max-width: 868px) {
+    width: 100%;
+    height: 50px;
+  }
 `;
 
 const ContactForm = () => {
