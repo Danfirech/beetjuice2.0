@@ -20,7 +20,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   background-color: #e5e4e2;
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     flex-direction: column;
     height: 1750px;
     background-color: black;
@@ -35,7 +35,7 @@ const TitleContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     flex-direction: column;
     height: 2700px;
   }
@@ -53,7 +53,7 @@ const Title = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-    @media (max-width: 768px) {
+    @media (max-width: 868px) {
     flex-direction: column;
     height: 400px;
   }
@@ -79,7 +79,7 @@ const PriceCardContainer = styled.div`
     padding-left: 10px;
     padding-top: 30px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     flex-direction: column;
     justify-content: space-between;
     height: 1900px;
@@ -114,7 +114,7 @@ const PriceLeft = styled.div`
     font-size: 60px;
     font-family: "Bebas Neue", cursive;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     display: none;
   }
   .wedding-package-title {
@@ -132,7 +132,7 @@ const PriceMiddle = styled.div`
     height: 80%;
     width: 240px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     height: 900px;
     width: 90vw;
   }
@@ -147,7 +147,7 @@ const PriceRight = styled.div`
     height: 80%;
     width: 240px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     height: 900px;
     width: 90vw;
     margin-top: 50px;
@@ -172,7 +172,7 @@ const PriceCardTop = styled.div`
     padding-left: 5px;
     font-size: 12px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     font-size: 18px;
     padding-right: 5px;
     padding-left: 5px;
@@ -201,9 +201,9 @@ const Button = styled.div`
     color: black;
     border: 2px solid #e5e4e2;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     background-color: black;
-    margin-bottom: 170px;
+    margin-bottom: 10px;
   }
 `;
 
@@ -228,7 +228,7 @@ const ImageContainer = styled.div`
   align-items: center;
   justify-content: center;
   background-color: #e5e4e2;
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     height: 340px;
     background-color: #e5e4e2;
   }
@@ -246,7 +246,7 @@ const Sections = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     font-size: 35px;
     display: flex;
     justify-content: center;
@@ -271,7 +271,7 @@ const FaqSection = styled.div`
     height: 2500px;
     padding-top: 60px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     height: 1700px;
     margin-top: 200px;
   }
@@ -291,7 +291,7 @@ const QuestionsPageContainer = styled.div`
     height: 1900px;
     padding-top: 60px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -313,7 +313,7 @@ const QuestionsBox = styled.div`
     width: 100%;
     height: 400px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     width: 350px;
     height: 200px;
   }
@@ -332,7 +332,7 @@ const Top = styled.div`
     height: 100px;
     font-size: 12px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     width: 350px;
     height: 70px;
     font-size: 10px;
@@ -360,7 +360,7 @@ const Bottom = styled.div`
     height: 50px;
     font-size: 12px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     width: 350px;
     height: 100px;
     font-size: 12px;

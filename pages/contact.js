@@ -1,13 +1,14 @@
 import Header from "../components/header";
+import Pricing from "../components/CorporatePage/Pricing";
 import Footer from "../components/footer";
 import MobileFooter from "../components/mobileFooter";
-import ContactForm from "../components/ContactPage/ContactContainer";
+import Contact from "../components/ContactPage/ContactContainer";
 
-export default function Home() {
+export default function Corporate() {
   return (
     <>
       <Header />
-      <ContactForm />
+      <Contact />
       <Footer />
       <MobileFooter />
     </>

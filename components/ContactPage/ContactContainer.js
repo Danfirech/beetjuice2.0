@@ -13,8 +13,9 @@ const ContactContainer = styled.div`
   }
   @media (max-width: 868px) {
     flex-direction: column;
-    height: 920px;
+    height: 1120px;
     padding-bottom: 330px;
+    margin-bottom: -70px;
   }
 `;
 
@@ -30,7 +31,7 @@ const FormContainer = styled.div`
   }
   @media (max-width: 868px) {
     width: 100%;
-    height: 50px;
+    height: 100px;
   }
 `;
 
