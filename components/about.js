@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import "../pages/_document";
-import ScrollAnimation from "react-animate-on-scroll";
+import React from 'react';
+import styled from 'styled-components';
+import '../pages/_document';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Container = styled.div`
   width: 100%;
@@ -15,7 +15,8 @@ const Container = styled.div`
   padding-right: 150px;
   padding-top: 150px;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+
   @media (max-width: 1068px) {
     height: 100px;
     font-size: 15px;

@@ -1,8 +1,8 @@
-import React from "react";
-import styled from "styled-components";
-import pic from "../media/BeetJuiceTest.jpeg";
-import Image from "next/image";
-import "../pages/_document";
+import React from 'react';
+import styled from 'styled-components';
+import pic from '../media/BeetJuiceTest.jpeg';
+import Image from 'next/image';
+import '../pages/_document';
 
 const Container = styled.div`
   display: none;
@@ -24,12 +24,6 @@ const Title = styled.div`
   background-color: #e5e4e2;
   font-size: 34px;
   font-family: raleway;
-`;
-
-const Header = styled.div`
-  height: 15%;
-  width: 100vw;
-  background-color: blue;
 `;
 
 const ImageWrapper = styled.div`
